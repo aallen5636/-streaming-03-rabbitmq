@@ -1,3 +1,4 @@
+# Name: Ashley Allen
 # streaming-03-rabbitmq
 
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
@@ -32,14 +33,26 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 You'll need to fix an error in the program to get it to run.
 Once it runs and finishes, we can reuse the terminal.
 
+-I did not have fix any issues. The code ran as is. 
+
 ## Version 1 - Execute the Consumer/Listener
 
 1. Read v1_listen_for_messages.py (and the tutorial)
 1. Run the file.
 
 You'll need to fix an error in the program to get it to run.
+
+-I Made corrects, and the code ran successfully.
+
 Once it runs successfully, will it terminate on its own? How do you know? 
 As long as the process is running, we cannot use this terminal for other commands. 
+
+ -The program continues to run until you abort the terminal. When the program is running, we cannot use the terminal. 
+ 
+ Emmit and Receiving screenshots for Version 1.
+ 
+<img width="953" alt="Terminal 1" src="https://user-images.githubusercontent.com/95989498/215226907-cb68d352-cd47-4e38-8908-4d31518c825b.png">
+<img width="953" alt="Terminal 2" src="https://user-images.githubusercontent.com/95989498/215227116-8c5043d3-412e-4829-ab60-c6124b08d83d.png">
 
 ## Version 1 - Open a New Terminal / Emit More Messages
 
@@ -76,16 +89,21 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? Makes the code easier to read. 
 1. Then, define your functions.
 1. Functions are reuable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection? They will all close and can be interrupted. 
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. How many hits did you get? 200,000
 1. Learn and understand this common Python idiom.
+
+-Emit Message Screenshot Version 2
+<img width="953" alt="Terminal 3" src="https://user-images.githubusercontent.com/95989498/215227164-56d92034-4991-451e-a5e5-48b83962c928.png">
+<img width="953" alt="Terminal 4" src="https://user-images.githubusercontent.com/95989498/215227172-457a21d1-6e1d-49ce-be94-e2b0e1219336.png">
+
 
 ## Reference
 
