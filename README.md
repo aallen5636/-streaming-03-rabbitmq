@@ -112,4 +112,5 @@ Each of the version 2 programs include an error as well.
 
 ## Multiple Terminals
 
-![Mac Example](screenshot.png)
+![Mac Example]
+<img width="509" alt="Screenshot by Snip My at Jan 31, 2023 at 4:25:16 PM" src="https://user-images.githubusercontent.com/95989498/215897633-8bc12176-4f0b-478a-83b4-85f4e2f41159.png">
